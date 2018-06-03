@@ -2,7 +2,7 @@
 <%= form_tag do %>
     <label for="rate">Rate</label>
     <input id="rate" name="rate" type="text" value="<%= @rate %>">
-    <label for="until">Time the rate will be valid until</label>
+    <label for="until">Until</label>
     <input id="until" name="until" type="datetime-local" value="<%= @until %>" />
     <%= submit_tag("Save") %>
 <% end %>
